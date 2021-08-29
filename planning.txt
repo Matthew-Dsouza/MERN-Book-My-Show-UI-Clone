@@ -1,0 +1,44 @@
+Book My Show Planning
+
+--> We need a reusable carousel
+	• Hero Carousel
+	• Common Carousel
+	• Genre Carousel
+    • Cast & Crew small Carousel
+
+--> Requirements of this Project:
+	• Homepage UI
+    • Movie-page UI 
+    • Category UI 
+    • Authentication page
+    • Razorpay Payment Gateway
+
+Plan -> How are we building it?
+• Layouts
+• Routes
+• Pages
+• Components
+
+HOC - Higher Order Components
+    • Components accept some props & states & return JSX elements.
+    • HOC returns a component instead of JSX element.
+
+Layout First Approach: 
+• Layout first approach is, you'll only build a layout(skeleton) of a website.
+• Advantage of using this approach is you'll not render the default layout(header/footer) while changing between pages, only the content will be updated.
+
+Single Page Applications: 
+• Using JS, React will render & update the contents of the file without reloading the whole page.
+• It's updating html contents for the same file. It's only mounting new components and unmounting old components.
+• Your components will be rendered inside the index.html file
+
+`exact` - Renders only the function component that is called without rendering it's previous component.
+
+<></> are known as React fragments.
+• React strict rule is that every code should be enclosed inside a parent element. We can use use empty angular brackets(fragments) instead of div.
+
+... is known ad Spread Operator. 
+• It was introducedin ES6 to copy the properties of an object into a new object while adding new properties to new object.
+• const newNegan = { ...oldNegan, goodGuy: true }
+
+• In React, if you are building a component, first letter should be capital.
