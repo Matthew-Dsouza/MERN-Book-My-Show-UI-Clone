@@ -22,7 +22,7 @@ export const MovieHero = () => {
                     </div>
 
                     {/* <div className="w-full h-56 bg-opacity-60 bg-black z-10 absolute bottom-0" /> */}
-                    <div className="w-full h-56 absolute bottom-0" />
+                    <div className="w-full h-full absolute bottom-0" />
                     <img
                         src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
                         alt="poster"

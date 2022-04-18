@@ -48,20 +48,6 @@ const MovieNavLg = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                    {/* city dropdown */}
-                    <span className="text-gray-400 hover:text-white cursor-pointer text-sm flex items-center">
-                        Mumbai <BiChevronDown />
-                    </span>
-                    {/* sign in button  */}
-                    <button className="bg-red-600 text-white px-2 py-1 text-base  rounded">
-                        Sign in
-                    </button>
-                    {/* menu button  */}
-                    <div className="w-8 h-8 text-white">
-                        <BiMenu className="w-full h-full" />
-                    </div>
-                </div>
             </div>
         </>
     );
